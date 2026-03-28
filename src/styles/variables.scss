@@ -1,0 +1,64 @@
+:root {
+  --y-color-primary: #1890ff;
+  --y-color-success: #52c41a;
+  --y-color-warning: #faad14;
+  --y-color-error: #ff4d4f;
+  --y-color-info: #1890ff;
+
+  --y-color-primary-hover: #40a9ff;
+  --y-color-primary-active: #096dd9;
+
+  --y-color-success-hover: #73d13d;
+  --y-color-success-active: #389e0d;
+
+  --y-color-warning-hover: #ffc53d;
+  --y-color-warning-active: #d48806;
+
+  --y-color-error-hover: #ff7875;
+  --y-color-error-active: #cf1322;
+
+  --y-color-info-hover: #40a9ff;
+  --y-color-info-active: #096dd9;
+
+  --y-text-color: #333333;
+  --y-text-color-secondary: #999999;
+  --y-text-color-disabled: #bfbfbf;
+  --y-text-color-placeholder: #cccccc;
+
+  --y-border-color: #d9d9d9;
+  --y-border-color-light: #e8e8e8;
+  --y-border-color-base: #d9d9d9;
+
+  --y-background-color: #ffffff;
+  --y-background-color-light: #fafafa;
+
+  --y-font-size-base: 14px;
+  --y-font-size-lg: 16px;
+  --y-font-size-sm: 12px;
+
+  --y-line-height-base: 1.5;
+
+  --y-border-radius-base: 4px;
+  --y-border-radius-sm: 2px;
+  --y-border-radius-lg: 8px;
+
+  --y-padding-base: 16px;
+  --y-padding-sm: 12px;
+  --y-padding-lg: 24px;
+
+  --y-height-base: 32px;
+  --y-height-lg: 40px;
+  --y-height-sm: 24px;
+
+  --y-transition-duration: 0.3s;
+  --y-transition-timing-function: ease-in-out;
+}
+
+.y-dark {
+  --y-color-primary: #1890ff;
+  --y-text-color: #ffffff;
+  --y-text-color-secondary: #999999;
+  --y-border-color: #434343;
+  --y-background-color: #141414;
+  --y-background-color-light: #1f1f1f;
+}

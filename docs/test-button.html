@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Test</title>
+  <script type="module" src="/lib/yuan-ui.es.js"></script>
+  <link rel="stylesheet" href="/lib/style.css">
+  <style>
+    .test-container {
+      padding: 20px;
+      border: 2px solid red;
+    }
+    .test-btn {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>组件测试</h1>
+  <div class="test-container">
+    <m-button class="test-btn">测试按钮</m-button>
+    <m-button type="primary" class="test-btn">主要按钮</m-button>
+    <m-button type="success" class="test-btn">成功按钮</m-button>
+    <m-button type="warning" class="test-btn">警告按钮</m-button>
+    <m-button type="danger" class="test-btn">危险按钮</m-button>
+    <m-button type="info" class="test-btn">信息按钮</m-button>
+  </div>
+  <div id="app"></div>
+</body>
+</html>
